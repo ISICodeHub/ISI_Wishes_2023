@@ -71,6 +71,9 @@
     margin: 5px;
     
 }
+p{
+    position: absolute;
+}
 .bible_word_image {
 object-fit: fill;
 
