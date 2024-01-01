@@ -115,4 +115,7 @@ margin: 5px;
         flex-direction: column;
         border-radius: 5px;
     }
+    .container{
+        top: 80%;
+    }
 }
