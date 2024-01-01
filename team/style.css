@@ -98,11 +98,12 @@ margin: 5px;
       transform: translateY(-10px);
     }
   }
-@media screen and (max-width: 768px) {
-    main{
+  @media screen and (max-width: 768px) {
+    main {
         display: flex;
         flex-direction: column;
     }
+
     .wishes {
         margin-top: 30%;
         width: 90%;
@@ -110,14 +111,19 @@ margin: 5px;
         font-size: 14px;
         justify-content: center;
         align-items: center;
+        overflow-y: auto; /* Add this line to enable vertical scroll */
+        max-height: 200px; /* Set a max height for the wishes container to enable scrolling */
     }
-    .bible_words{
+
+    .bible_words {
         display: flex;
         flex-direction: column;
         border-radius: 5px;
     }
-    .container{
+
+    .container {
         top: 150%;
         color: white;
     }
 }
+
