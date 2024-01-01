@@ -81,7 +81,7 @@ margin: 5px;
 .container {
     font-size: 2em;
     font-weight: bold;
-    color: whitesmoke;
+    color: rgb(0, 0, 0);
     margin-top: 50px;
     text-align: center;
     animation: bounce 2s infinite;
