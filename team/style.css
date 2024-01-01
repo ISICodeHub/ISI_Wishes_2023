@@ -71,7 +71,33 @@
     margin: 5px;
     
 }
+.bible_word_image {
+object-fit: fill;
 
+width: 200px;
+height: auto;
+margin: 5px;
+}
+.container {
+    font-size: 2em;
+    font-weight: bold;
+    color: whitesmoke;
+    margin-top: 50px;
+    text-align: center;
+    animation: bounce 2s infinite;
+  }
+
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-20px);
+    }
+    60% {
+      transform: translateY(-10px);
+    }
+  }
 @media screen and (max-width: 768px) {
     main{
         display: flex;
