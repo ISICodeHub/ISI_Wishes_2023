@@ -28,39 +28,32 @@
     background: #ffff;
     padding: 20px;
     border-radius: 10px;
+    max-width: 80%; /* Added for better responsiveness */
 }
 
 .bible_verse {
-    width: 80%;
+    width: 100%; /* Updated width for better responsiveness */
     font-weight: bold;
     margin: 5px;
     background: #ffff;
     padding: 20px;
 }
 
-.video_lion {
-    position: absolute;
-    background: rgba(255, 0, 0, 0.5);
-    top: 50%;
-    right: 0;
-    width: 80%; /* Adjust width for responsiveness */
-    height: auto;
-    transform: translate(0, -50%);
-}
-
 .logo_lion {
-    width: 80px; /* Adjust width for responsiveness */
-    height: 80px; /* Adjust height for responsiveness */
+    width: 60px; /* Adjusted width for responsiveness */
+    height: 60px; /* Adjusted height for responsiveness */
 }
 
 .person_info {
     display: flex;
+    flex-direction: column; /* Changed to column layout for better responsiveness */
     text-align: center;
     justify-content: center;
 }
 
 .bible_words {
     display: flex;
+    flex-direction: column; /* Changed to column layout for better responsiveness */
     color: rgb(0, 0, 0);
     font-size: 24px;
     padding: 20px;
@@ -68,12 +61,14 @@
     position: absolute;
     top: 60%;
     margin: 25px;
-   
+    width: 100%; /* Updated width for better responsiveness */
 }
 
 @media screen and (max-width: 768px) {
-    .wishes, .bible_verse, .video_lion, .logo_lion, .person_info, .bible_words {
+    .wishes, .bible_verse, .logo_lion, .person_info, .bible_words {
         width: 90%;
         margin: 10px auto;
     }
+
+   
 }
