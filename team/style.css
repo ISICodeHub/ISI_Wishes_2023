@@ -116,6 +116,7 @@ margin: 5px;
         border-radius: 5px;
     }
     .container{
-        top: 80%;
+        top: 150%;
+        color: white;
     }
 }
