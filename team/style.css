@@ -105,14 +105,14 @@ margin: 5px;
     }
 
     .wishes {
-        margin-top: 30%;
+       
         width: 90%;
         margin: 10px auto;
         font-size: 14px;
         justify-content: center;
         align-items: center;
-        overflow-y: auto;
-        max-height: 200px; 
+       
+        max-height: 300px; 
     }
 
     .bible_words {
